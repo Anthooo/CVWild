@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(104, 187, 285);
+    padding: 15px;
+}
+
+header {
+    background-color: #82c2e3;
+    height: 200px;
+    border: 1px solid;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+container {
+    background-color: #82c2e3;
+}
+
+footer {
+    background-color: #82c2e3;
+}
+
+#left-box {
+    float: left;
+    background-color: rgb(9, 30, 45);
+    color: #FFF;
+    border: 1px solid;
+    width: 40%;
+    padding: 2px;
+}
+
+.photo {
+    text-align: center;
+    margin-top: 40px;
+}
+
+p {
+    text-align: justify;
+    margin : 10px;
+}
+
+h4 {
+    margin-left: 10px;
+}
+
+#right-box {
+    width: 57%;
+    float: right;
+}
+#experiences-box {
+    background-color: #FFF;
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+
+#studies-box {
+    background-color: #FFF;
+    border: 1px solid;
+}
