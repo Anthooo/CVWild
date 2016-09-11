@@ -43,8 +43,24 @@ p {
     text-align: center;
 }
 
+.date {
+    font-style: italic;
+}
+
+.lieu {
+    font-style: italic;
+}
+
+.desc {
+    margin-bottom: 30px;
+}
+
 .experience p {
     text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
 }
 
 h3 {
