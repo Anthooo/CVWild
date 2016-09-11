@@ -39,6 +39,17 @@ p {
     margin : 10px;
 }
 
+.study p {
+    text-align: center;
+}
+
+.experience p {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
 h4 {
     margin-left: 10px;
 }
@@ -51,9 +62,13 @@ h4 {
     background-color: #FFF;
     border: 1px solid;
     margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
 }
 
 #studies-box {
     background-color: #FFF;
     border: 1px solid;
+    padding: 5px;
+    text-align: center;
 }
