@@ -1,9 +1,16 @@
+html {
+        height: 100%;
+}
+
 body {
     background-color: rgb(104, 187, 285);
     padding: 15px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
 }
 
-header {
+#header {
     background-color: #82c2e3;
     height: 200px;
     border: 1px solid;
@@ -12,11 +19,14 @@ header {
 }
 
 
-container {
+#container {
     background-color: #82c2e3;
+    border: 1px solid;
+    padding: 15px;
+    margin-bottom: 10px;
 }
 
-footer {
+#footer {
     background-color: #82c2e3;
 }
 
@@ -43,11 +53,7 @@ p {
     text-align: center;
 }
 
-.date {
-    font-style: italic;
-}
-
-.lieu {
+.date, .lieu {
     font-style: italic;
 }
 
@@ -73,6 +79,7 @@ h4 {
 #right-box {
     width: 57%;
     float: right;
+    border: 1px solid;
 }
 #experiences-box {
     background-color: #FFF;
@@ -87,4 +94,10 @@ h4 {
     border: 1px solid;
     padding: 5px;
     text-align: center;
+}
+
+#footer {
+    border: 1px solid black;
+    height: 150px;
+    margin-bottom: 0;
 }
